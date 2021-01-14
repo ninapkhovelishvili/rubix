@@ -2233,7 +2233,7 @@
 
 .follow-us-section {
   width: 100%;
-  margin-bottom: 80px;
+  margin-bottom: 100px;
 }
 
 .follow-us-section .follow-us-items {
@@ -2316,5 +2316,223 @@
 
 .follow-us-section .follow-us-items .instagram-content .instagram-imgs .instagram-img .img:hover {
   opacity: 1;
+}
+
+.footer-section {
+  width: 100%;
+  background-color: #1a1a1a;
+}
+
+.footer-section .footer-section-items {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer-section .footer-section-items .footer-top {
+  width: 100%;
+}
+
+.footer-section .footer-section-items .footer-top .footer-items {
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.footer-section .footer-section-items .footer-top .footer-items .left-side-items {
+  width: 420px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer-section .footer-section-items .footer-top .footer-items .left-side-items img {
+  width: 130px;
+  height: 24px;
+  margin-bottom: 10px;
+}
+
+.footer-section .footer-section-items .footer-top .footer-items .left-side-items .social-networks {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.footer-section .footer-section-items .footer-top .footer-items .left-side-items .social-networks ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-section .footer-section-items .footer-top .footer-items .left-side-items .social-networks ul .social-network {
+  margin-right: 30px;
+}
+
+.footer-section .footer-section-items .footer-top .footer-items .left-side-items .social-networks ul .social-network i {
+  font-size: 23px;
+  color: #fff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.footer-section .footer-section-items .footer-top .footer-items .left-side-items .social-networks ul .social-network i:hover {
+  color: #ba933e;
+}
+
+.footer-section .footer-section-items .footer-top .footer-items .right-side-items {
+  width: 880px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.footer-section .footer-section-items .footer-top .footer-items .right-side-items .footer-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.footer-section .footer-section-items .footer-top .footer-items .right-side-items .footer-links .title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
+
+.footer-section .footer-section-items .footer-top .footer-items .right-side-items .footer-links ul li {
+  padding-bottom: 5px;
+}
+
+.footer-section .footer-section-items .footer-top .footer-items .right-side-items .footer-links ul li a {
+  color: #999;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  text-transform: capitalize;
+}
+
+.footer-section .footer-section-items .footer-top .footer-items .right-side-items .footer-links ul li a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.footer-section .footer-section-items .footer-top .footer-items .right-side-items .footer-links .contact-phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.footer-section .footer-section-items .footer-top .footer-items .right-side-items .footer-links .contact-phone li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-section .footer-section-items .footer-top .footer-items .right-side-items .footer-links .contact-phone li .icon i {
+  font-size: 18px;
+  color: #999;
+}
+
+.footer-section .footer-section-items .footer-top .footer-items .right-side-items .footer-links .contact-phone li .details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 25px;
+}
+
+.footer-section .footer-section-items .footer-top .footer-items .right-side-items .footer-links .contact-phone li .details .phone {
+  font-size: 16px;
+  color: #999;
+}
+
+.footer-section .footer-section-items .footer-top .footer-items .right-side-items .footer-links .contact-phone li .details u {
+  font-size: 16px;
+  color: #999;
+  text-decoration: underline;
+}
+
+.footer-section .footer-section-items .footer-top .footer-items .right-side-items .footer-links .contact-phone li .details span {
+  font-size: 16px;
+  color: #999;
+}
+
+.footer-section .footer-section-items .footer-bottom {
+  height: 87px;
+  width: 100%;
+  border-top: 1px solid #313131;
+}
+
+.footer-section .footer-section-items .footer-bottom .copyright-items {
+  width: 100%;
+  height: 87px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-section .footer-section-items .footer-bottom .copyright-items .copyright {
+  height: 25px;
+}
+
+.footer-section .footer-section-items .footer-bottom .copyright-items .copyright h6 {
+  font-size: 14px;
+  color: #999;
+  font-weight: 100;
+}
+
+.footer-section .footer-section-items .footer-bottom .copyright-items .copyright h6 span {
+  color: white;
+  font-size: 14px;
+  padding-left: 3px;
+  padding-right: 3px;
+  font-weight: 100;
+}
+
+.footer-section .footer-section-items .footer-bottom .copyright-items .payment-logos {
+  width: 429px;
+  height: 36px;
+}
+
+.footer-section .footer-section-items .footer-bottom .copyright-items .payment-logos .img {
+  width: 429px;
+  height: 36px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 /*# sourceMappingURL=home-style.css.map */
