@@ -1983,4 +1983,338 @@
 .services-section .service-items .service-item a:hover i {
   color: #ba933e;
 }
+
+.our-blog-section {
+  width: 100%;
+}
+
+.our-blog-section .our-blog-items {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.our-blog-section .our-blog-items .blog-items {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.our-blog-section .our-blog-items .blog-items .blog-item {
+  width: 447px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.our-blog-section .our-blog-items .blog-items .blog-item .blog-img {
+  width: 100%;
+  height: 279px;
+  overflow: hidden;
+}
+
+.our-blog-section .our-blog-items .blog-items .blog-item .blog-img .img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.our-blog-section .our-blog-items .blog-items .blog-item .blog-img .img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.our-blog-section .our-blog-items .blog-items .blog-item .post-info {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.our-blog-section .our-blog-items .blog-items .blog-item .post-info .furniture {
+  width: 86px;
+  height: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  background-color: #ba933e;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+
+.our-blog-section .our-blog-items .blog-items .blog-item .post-info .accessories {
+  width: 105px;
+  height: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  background-color: #ba933e;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+
+.our-blog-section .our-blog-items .blog-items .blog-item .post-info .clothing {
+  width: 83px;
+  height: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  background-color: #ba933e;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+
+.our-blog-section .our-blog-items .blog-items .blog-item .post-info .post-date {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5px;
+}
+
+.our-blog-section .our-blog-items .blog-items .blog-item .post-info .post-date .month {
+  text-transform: capitalize;
+}
+
+.our-blog-section .our-blog-items .blog-items .blog-item .post-info .post-date .year {
+  padding-left: 3px;
+}
+
+.our-blog-section .our-blog-items .blog-items .blog-item .post-info .post-title {
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+
+.our-blog-section .our-blog-items .blog-items .blog-item .post-info .post-title a {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1a1a1a;
+  text-transform: capitalize;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.our-blog-section .our-blog-items .blog-items .blog-item .post-info .post-title a:hover {
+  color: #ba933e;
+  text-decoration: underline;
+}
+
+.our-blog-section .our-blog-items .blog-items .blog-item .post-info .short-description {
+  line-height: 25px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.our-blog-section .our-blog-items .blog-items .blog-item .post-info .blog-bttn {
+  width: 160px;
+  height: 50px;
+  color: #1a1a1a;
+  border-radius: 4px;
+  border: 2px solid #e5e5e5;
+  font-weight: 700;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.our-blog-section .our-blog-items .blog-items .blog-item .post-info .blog-bttn i {
+  color: #1a1a1a;
+  margin-left: 10px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.our-blog-section .our-blog-items .blog-items .blog-item .post-info .blog-bttn:hover {
+  border: 2px solid #ba933e;
+  color: #ba933e;
+}
+
+.our-blog-section .our-blog-items .blog-items .blog-item .post-info .blog-bttn:hover i {
+  color: #ba933e;
+}
+
+.brands-section {
+  width: 100%;
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+
+.brands-section .brands-section-items {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.brands-section .brands-section-items .brands-item {
+  width: 156px;
+  height: 94px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.brands-section .brands-section-items .brands-item:hover {
+  opacity: 0.5;
+}
+
+.follow-us-section {
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+.follow-us-section .follow-us-items {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.follow-us-section .follow-us-items .section-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.follow-us-section .follow-us-items .section-header a {
+  font-size: 16px;
+  color: #1a1a1a;
+  text-align: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.follow-us-section .follow-us-items .section-header a:hover {
+  color: #ba933e;
+  text-decoration: underline;
+}
+
+.follow-us-section .follow-us-items .instagram-content {
+  width: 100%;
+}
+
+.follow-us-section .follow-us-items .instagram-content .img {
+  width: 203px;
+  height: 203px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.follow-us-section .follow-us-items .instagram-content .instagram-imgs {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.follow-us-section .follow-us-items .instagram-content .instagram-imgs .instagram-img {
+  width: 208px;
+  height: 208px;
+}
+
+.follow-us-section .follow-us-items .instagram-content .instagram-imgs .instagram-img .img {
+  width: 208px;
+  height: 208px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  opacity: 0.8;
+  -webkit-transition: 0.2s ease-out;
+  transition: 0.2s ease-out;
+}
+
+.follow-us-section .follow-us-items .instagram-content .instagram-imgs .instagram-img .img:hover {
+  opacity: 1;
+}
 /*# sourceMappingURL=home-style.css.map */

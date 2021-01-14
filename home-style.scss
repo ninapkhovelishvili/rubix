@@ -1592,3 +1592,260 @@ $red:#cc1414;
         }
     }
 }
+
+// --------------our-blog-section! ----------------
+
+.our-blog-section{
+    width: 100%;
+    
+    .our-blog-items{
+        width: 100%;
+        @include column();
+
+        .blog-items{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            .blog-item{
+                width: 447px;
+                @include column();
+
+                .blog-img{
+                    width: 100%;
+                    height: 279px;
+                    overflow: hidden;
+                    
+                    .img{
+                        width: 100%;
+                        height: 100%;
+                        @include background-cover();
+                        transition: 0.5s;
+
+                        &:hover{
+                            transform: scale(1.1);
+                        }
+                    }
+                }
+
+                .post-info{
+                    width: 100%;
+                    margin-top: 20px;
+                    margin-bottom: 30px;
+                    @include column();
+
+                    .furniture{
+                        width: 86px;
+                        height: 26px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        text-transform: uppercase;
+                        background-color: $mustard;
+                        color: white;
+                        font-size: 12px;
+                        font-weight: 700;
+                        border-radius: 4px;
+                        margin-bottom: 12px;
+                    }
+
+                    .accessories{
+                        width: 105px;
+                        height: 26px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        text-transform: uppercase;
+                        background-color: $mustard;
+                        color: white;
+                        font-size: 12px;
+                        font-weight: 700;
+                        border-radius: 4px;
+                        margin-bottom: 12px;
+                    }
+
+                    .clothing{
+                        width: 83px;
+                        height: 26px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        text-transform: uppercase;
+                        background-color: $mustard;
+                        color: white;
+                        font-size: 12px;
+                        font-weight: 700;
+                        border-radius: 4px;
+                        margin-bottom: 12px;
+                    }
+
+                    .post-date{
+                        width: 100%;
+                        display: flex;
+                        margin-top: 5px;
+
+                        .month{
+                            text-transform: capitalize;
+                        }
+                        
+                        .year{
+                            padding-left: 3px;
+                        }
+                    }
+
+                    .post-title{
+                        margin-top: 8px;
+                        margin-bottom: 10px;
+
+                        a{
+                            font-size: 20px;
+                            font-weight: 700;
+                            color: $black;
+                            text-transform: capitalize;
+                            transition: 0.5s;
+
+                            &:hover{
+                                color: $mustard;
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                    
+                    .short-description{
+                        line-height: 25px;
+                        margin-top: 10px;
+                        margin-bottom: 20px;
+                        padding-left: 4px;
+                        padding-right: 4px;
+                    }
+
+                    .blog-bttn{
+                        width: 160px;
+                        height: 50px;
+                        color: $black;
+                        border-radius: 4px;
+                        border: 2px solid #e5e5e5;
+                        font-weight: 700;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        transition: 0.5s;
+
+                        i{
+                            color: $black;
+                            margin-left: 10px;
+                            transition: 0.5s;
+                        }
+
+                        &:hover{
+                            border: 2px solid $mustard;
+                            color: $mustard;
+                        }
+
+                        &:hover i{
+                            color: $mustard;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// --------------brands-section! ----------------
+
+.brands-section{
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 80px;
+
+    .brands-section-items{
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border-top:1px solid #e5e5e5;
+        border-bottom: 1px solid #e5e5e5;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .brands-item{
+            width: 156px;
+            height: 94px;
+            transition: 0.5s;
+
+            &:hover{
+                opacity: 0.5;
+            }
+        }
+    }
+}
+
+// --------------follow-us-section! ----------------
+
+
+.follow-us-section{
+    width: 100%;
+    margin-bottom: 80px;
+
+    .follow-us-items{
+        width: 100%;
+        @include column();
+
+        .section-header{
+            display: flex;
+            @include column();
+            justify-content: space-between;
+            a{
+                font-size: 16px;
+                color: $black;
+                text-align: center;
+                transition: 0.5s;
+
+                &:hover{
+                    color: $mustard;
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        .instagram-content{
+            width: 100%;
+
+            .img{
+                width: 203px;
+                height: 203px;
+                @include background-contain();
+            }
+
+            .instagram-imgs{
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between; 
+
+                .instagram-img{
+                    width: 208px;
+                    height: 208px;
+
+                    .img{
+                        width: 208px;
+                        height: 208px;
+                        @include background-contain();
+                        opacity: 0.8;
+                        transition: 0.2s ease-out;
+
+                        &:hover{
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+// --------------footer-section! ----------------
+
